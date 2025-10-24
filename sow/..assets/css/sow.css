@@ -1,0 +1,144 @@
+html {
+	scroll-behavior: smooth;
+}
+nav ul li a:hover,
+nav ul li a:focus {
+	color: #007acc;
+	outline: none;
+}
+.cover {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background: #e9e4c9;
+	color: #fff;
+    width:100%
+}
+.title {
+	overflow: hidden;
+	white-space: nowrap;
+    width: 0;
+	border-right: 0.15em solid currentColor;
+	animation: typing 2s steps(30, end) forwards, blink-caret 0.75s step-end infinite;
+}
+@keyframes typing {
+	to {
+		width: 21.5ch;
+	}
+}
+@keyframes blink-caret {
+	50% {
+		border-color: transparent;
+	}
+}
+
+header {
+	background: #fff;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+header {
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+nav {
+  position: fixed;
+  justify-self: center;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  background-color: #fff; /* Fondo para que no se superponga con contenido */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  padding: 0.5rem 1rem;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem; 
+}
+
+nav ul li {
+  margin: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #e91e63; /* Color destacado al pasar el cursor */
+}
+html {
+  scroll-behavior: smooth;
+}
+nav ul li a:hover,
+nav ul li a:focus {
+  color: #eaa8fe;
+  outline: none;
+}
+
+
+.analysis-text {
+	columns: 1;
+	column-gap: 2rem;
+}
+@media (min-width: 800px) {
+	.analysis-text {
+		columns: 2;
+	}
+}
+.screenshots {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	gap: 1rem;
+}
+.screenshots img {
+	width: 100%;
+	height: auto;
+	border: 1px solid #ccc;
+    margin-top: 2rem;
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #343a40;
+  background-color: #f7dbdf;
+  margin: 0rem;
+  margin-top:0rem;
+  margin-bottom:0rem;
+  padding: 0;
+}
+main {
+  min-height: 80vh;
+  padding: 2rem 0;
+  margin-left:5rem;
+  margin-right: 5rem;
+}
+iframe{
+  border:none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin-bottom:2rem;
+  margin-top:2rem;
+}
+.conclusion {
+  font-size: 1.1rem;
+  margin-top: 1.5rem;
+  border-radius: 8px;
+}
+footer {
+  background: #f8f9fa;
+  text-align: center;
+  padding: 1rem 0;
+  border-top: 1px solid #e9ecef;
+  margin-top: 2rem;
+}

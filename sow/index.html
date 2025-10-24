@@ -1,78 +1,111 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Some Outstanding Webs – Análisis de Sitios Premiados</title>
-    <link rel="stylesheet" href="../assets/css/#index.css" />
-    <link rel="stylesheet" href="../assets/css/sow.css" />
-  </head>
-  <body>
-    <header>
-      <h1>Some Outstanding Webs</h1>
-      <nav>
-        <!-- Menú de navegación fijo -->
-        <ul>
-          <li><a href="#site-awwwards">A site choosen from Awwwards</a></li>
-          <li><a href="#site-webby">A site choosen from Webby</a></li>
-          <li><a href="#site-fwa">A site choosen from FWA</a></li>
-          <li><a href="#site-cssda">A site choosen from CSSDA</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <!-- Secciones individuales para cada sitio -->
-      <section id="site-awwwards">
-        <h2>Awwwards</h2>
-        <iframe
-          src="https://chipsa.design/"
-          title="Sitio Awwwards"
-          width="100%"
-          height="400"
-          loading="lazy"
-        ></iframe>
-        <p>guegxegxieugxiugxeigxegxiugeixgeixgeixgeixgeiugxieugxegixgeiuxgeiuxg</p>        <!-- Contenido de análisis del sitio Awwwards -->
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Some Outstanding Webs – Análisis de Sitios Premiados</title>
+		<link rel="stylesheet" href="..assets/css/style.css" />
+		<link rel="stylesheet" href="..assets/css/sow.css" />
+	</head>
+	<body>
+		<header>
+			<nav>
+				<!-- Menú de navegación fijo -->
+				<ul>
+					<li><a href="#site-awwwards">Dolsten</a></li>
+					<li><a href="#site-webby">Smooothy</a></li>
+					<li><a href="#site-fwa">Dolce&Gabanna</a></li>
+					<li><a href="#site-cssda">Lando Norris</a></li>
+				</ul>
+			</nav>
+      <section class="cover">
+	    <h1 class="title">Some Outstanding Webs</h1>
       </section>
-      <section id="site-webby">
-        <h2>Webby Awards</h2>
-        <iframe
-          src="https://www.webby.com"
-          title="Sitio Webby"
-          width="100%"
-          height="400"
-          loading="lazy"
-        ></iframe>
-        <!-- Contenido de análisis del sitio Webby -->
-      </section>
-      <section id="site-fwa">
-        <h2>FWA</h2>
-        <iframe
-          src="https://thefwa.com/"
-          title="Sitio FWA"
-          width="100%"
-          height="400"
-          loading="lazy"
-        ></iframe>
-        <!-- Contenido de análisis del sitio Webby -->
-      </section>
-      <section id="site-ccsda">
-        <h2>CCSDA</h2>
-        <iframe
-          src="https://izum.study/"
-          title="Sitio CSSDA"
-          width="100%"
-          height="400"
-          loading="lazy"
-        ></iframe>
-        <p></p>
+		</header>
 
-        <!-- Contenido de análisis del sitio Webby -->
-      </section>
-      <!-- Más secciones para FWA, CSS Design Awards, etc. -->
-    </main>
-    <footer>
-      <p>© 2025 Web Atelier (UDIT) – Informe de análisis.</p>
-    </footer>
-     
-  </body>
+		<main>
+			<!-- Secciones individuales para cada sitio -->
+			<section>
+				<h2 id="site-awwwards">Dolsten</h2>
+        <iframe src="https://www.dolsten.com/" title="Dolsten" width="100%" height="400" loading="lazy"></iframe>
+        <div class="analysis-text">
+				 <p>Dolsten presenta un diseño pulcro y cuidado que comunica profesionalismo, pero varios puntos prácticos limitan su efectividad. En accesibilidad, hay contrastes puntuales bajos y botones/elementos interactivos con áreas táctiles pequeñas que dificultan la interacción en móvil y para usuarios con baja visión; la navegación debería garantizar foco visible y roles/etiquetas ARIA donde haga falta. Respecto a rendimiento, la página depende de animaciones y recursos visuales pesados que aumentan el tiempo de carga en redes lentas; recomiendo generar versiones responsivas de las imágenes, servir WebP/AVIF cuando sea posible, auditar y diferir scripts de terceros, y reducir trabajo en el hilo principal para mejorar First Contentful Paint.</p>
+				 <p>En UX y contenido, la jerarquía de las llamadas a la acción no es siempre clara: sería mejor definir un CTA principal por pantalla y simplificar la interacción inicial (especialmente en móvil). También conviene revisar la semántica HTML (encabezados, landmarks) para mejorar SEO y la comprensión por parte de motores y lectores de pantalla. Finalmente, auditar trackers y políticas de privacidad aportará confianza al usuario. Acciones concretas: 1) optimizar imágenes y auditar scripts; 2) aumentar contraste y tamaños táctiles según WCAG; 3) definir CTAs claros y mejorar semántica; 4) añadir pruebas rápidas de rendimiento y accesibilidad (Lighthouse, axe) y priorizar las correcciones con mayor impacto en carga y usabilidad.</p>
+        </div>	       
+        <!-- Conclusión para Dolce & Gabbana -->
+        <div class="screenshots">
+	        <img src="https://ik.imagekit.io/sofiaimkit7/Captura%20de%20pantalla%20(43).png?updatedAt=1761267674859" alt="Captura de pantalla 1" />
+	        <img src="https://ik.imagekit.io/sofiaimkit7/Captura%20de%20pantalla%20(42).png?updatedAt=1761267674745" alt="Captura de pantalla 2" />
+          <img src="https://ik.imagekit.io/sofiaimkit7/Captura%20de%20pantalla%20(44).png?updatedAt=1761267674847" alt="Captura de pantalla 3" />
+        </div>
+        </div>
+	      <p class="conclusion">
+		      Conclusión: Dolsten presenta un diseño pulcro y cuidado que comunica profesionalismo, pero varios puntos prácticos limitan su efectividad. En accesibilidad, hay contrastes puntuales bajos y botones/elementos interactivos con áreas táctiles pequeñas que dificultan la interacción en móvil y para usuarios con baja visión; la navegación debería garantizar foco visible y roles/etiquetas ARIA donde haga falta. Respecto a rendimiento, la página depende de animaciones y recursos visuales pesados que aumentan el tiempo de carga en redes lentas; recomiendo generar versiones responsivas de las imágenes, servir WebP/AVIF cuando sea posible, auditar y diferir scripts de terceros, y reducir trabajo en el hilo principal para mejorar First Contentful Paint.
+      	</p>
+        
+			</section>
+		
+			<section id="site-webby">
+				<h2>Smooothy</h2>
+        <iframe src="https://smooothy.federic.ooo/" title="Sitio Smooothy Federic" width="100%" height="400" loading="lazy"></iframe>
+				<div class="analysis-text">
+	       <p>A primera vista, Smooothy muestra una propuesta visual minimalista y fluida que funciona bien como portfolio/experiencia experimental: las transiciones y microinteracciones refuerzan la sensación de pulido y la navegación resulta ágil en escritorio. No obstante, en algunos puntos esa apuesta por lo visual sacrifica claridad y accesibilidad: contrastes reducidos en elementos secundarios y animaciones sin controles pueden desorientar a usuarios con movilidad o sensibilidad visual. En móviles se observa que ciertos controles y áreas táctiles quedan cerca unos de otros, lo que complica la interacción táctil; además, si el sitio abusa de animaciones y recursos no optimizados, la carga en redes lentas puede penalizar la retención.</p>
+	       <p>Recomendaciones prácticas: 1) reforzar contraste y estados de foco (WCAG) para todos los elementos interactivos; 2) aumentar las áreas táctiles y simplificar la navegación en pantallas pequeñas; 3) auditar y diferir scripts/animaciones no esenciales y servir imágenes responsivas/formatos modernos para mejorar rendimiento; 4) añadir controles para animaciones (pausar/reducir) y asegurar texto semántico claro para SEO y lectores de pantalla. Con estos ajustes, Smooothy podrá conservar su estética distintiva mientras mejora la usabilidad, accesibilidad y rendimiento en dispositivos y conexiones reales.</p>
+        </div>
+        <div class="screenshots">
+	        <img src="https://ik.imagekit.io/sofiaimkit7/Captura%20de%20pantalla%20(34).png?updatedAt=1761264376053" alt="Captura de pantalla 1" />
+	        <img src="https://ik.imagekit.io/sofiaimkit7/Captura%20de%20pantalla%20(33).png?updatedAt=1761264375951" alt="Captura de pantalla 2" />
+        </div>
+        </div>
+	      <p class="conclusion">
+		      Conclusión: Smooothy destaca por una ejecución visual muy cuidada: sus transiciones, microinteracciones y composición transmiten pulido y personalidad, ofreciendo una experiencia atractiva en escritorio. Sin embargo, esa apuesta estética revela fragilidades prácticas —especialmente en móvil y en conexiones lentas— por contrastes bajos, áreas táctiles reducidas y recursos no siempre optimizados, lo que puede afectar accesibilidad, rendimiento y retención. Con ajustes focalizados en rendimiento (imágenes responsivas, formatos modernos, diferir scripts) y accesibilidad (contraste, foco visible, tamaños táctiles y controles de animación), el sitio puede conservar su identidad visual a la vez que mejora la usabilidad y el alcance..
+      	</p>
+			</section>
+      			<section id="site-fwa">
+				<h2>Dolce & Gabanna </h2>
+        <iframe src="https://beautytools.dolcegabbana.com/en-es/velvet" title="Sitio Dolce & Gabanna" width="100%" height="400" loading="lazy"></iframe>
+				<div class="analysis-text">
+					<p>La página de Dolce &amp; Gabbana (Velvet) presenta una narrativa visual sofisticada y una producción audiovisual de alto nivel que refuerzan su posicionamiento premium. No obstante, esa ambición estética tiene costes prácticos: medios pesados y animaciones complejas que pueden degradar el rendimiento en móviles, puntos débiles de accesibilidad (contraste sobre imágenes y falta de alternativas textuales) y llamadas a la acción que a veces se diluyen entre el contenido.</p>
+				</div>
+				<div class="screenshots">
+					<img src="https://ik.imagekit.io/sofiaimkit7/Captura%20de%20pantalla%20(39).png?updatedAt=1761266031503" alt="Captura de pantalla 1" />
+					<img src="https://ik.imagekit.io/sofiaimkit7/Captura%20de%20pantalla%20(36).png?updatedAt=1761266069521" alt="Captura de pantalla 2" />
+				</div>
+        <!-- Conclusión breve y accionable -->
+				<p class="conclusion">Conclusión: Dolce &amp; Gabbana (Velvet) brilla por su producción visual y storytelling, pero debe equilibrar estética y rendimiento: optimizar medios (versiones responsivas y formatos modernos), lazy-load/diferir vídeos y scripts, asegurar subtítulos/alt text y mejorar contraste y foco, y clarificar CTAs en móvil. Estas acciones permitirán conservar la experiencia premium sin sacrificar velocidad, accesibilidad ni conversión.</p>
+			</section>
+      			<section id="site-cssda">
+					<h2>Landonorris</h2>
+		        <iframe src="https://landonorris.com/" title="Sitio Landon Norris" width="100%" height="400" loading="lazy"></iframe>
+					<div class="analysis-text">
+					  <p>Landon Norris presenta una experiencia visual impactante con animaciones y transiciones que refuerzan la identidad del proyecto; la navegación es clara en escritorio y las composiciones crean una fuerte presencia de marca. Sin embargo, esa intensidad visual puede penalizar el rendimiento en móvil y distraer a usuarios que buscan información concreta: algunos elementos carecen de una jerarquía de contenido clara y hay zonas donde el contraste y la accesibilidad (foco, etiquetas ARIA, texto alternativo) podrían mejorarse. Recomiendo priorizar medidas de rendimiento (optimizar y servir imágenes responsivas, diferir scripts pesados y reducir trabajo en el hilo principal), revisar la semántica y el orden de lectura para SEO y lectores de pantalla, y simplificar la primera interacción móvil con CTAs más visibles y áreas táctiles mayores; con estos ajustes el sitio mantendrá su carácter visual sin sacrificar usabilidad ni alcance.</p>
+					</div>
+        <div class="screenshots">
+	        <img src="https://ik.imagekit.io/sofiaimkit7/Captura%20de%20pantalla%20(31).png?updatedAt=1761261389908" alt="Captura de pantalla 1" />
+	        <img src="https://ik.imagekit.io/sofiaimkit7/Captura%20de%20pantalla%20(32).png?updatedAt=1761261389840" alt="Captura de pantalla 2" />
+        </div>
+        </div>
+	      <!-- Conclusión para Landon Norris -->
+					<p class="conclusion">
+            Conclusión: Landon Norris destaca por una dirección visual potente y una experiencia animada que captan la atención; sin embargo, su intensidad estética puede comprometer rendimiento y claridad en dispositivos móviles. Aprendizaje clave: equilibrar impacto visual y usabilidad. Acciones recomendadas: optimizar medios y animaciones, priorizar la semántica y el orden de lectura para accesibilidad/SEO, y simplificar y destacar las llamadas a la acción en móvil para convertir la atención en interacción.</p>
+      	</p>
+			</section>
+<!-- Conclusión general de los sitios analizados -->
+		<section id="conclusion-general" class="final-conclusion">
+			<h2>Conclusión general</h2>
+			<p>En conjunto, los sitios analizados comparten una gran fortaleza: un diseño visual muy trabajado y un uso efectivo de imágenes, tipografía y microinteracciones que transmiten identidad y captan la atención. No obstante, también muestran patrones comunes de mejora: dependencias en recursos pesados (vídeo/imagen/animaciones) que impactan rendimiento en móvil, varios problemas de accesibilidad (contrastes, foco y alternativas textuales) y, en ocasiones, una jerarquía de contenido o llamadas a la acción poco claras en pantallas pequeñas. </p>
+			<ul>
+				<li><strong>Fortalezas comunes:</strong> dirección visual coherente, storytelling potente, microinteracciones pulidas.</li>
+				<li><strong>Debilidades comunes:</strong> rendimiento afectado por medios pesados, accesibilidad parcial, CTAs poco visibles en móvil.</li>
+				<li><strong>Takeaways/prioridades:</strong> 1) optimizar y servir medios responsivos (WebP/AVIF, versiones adaptadas) y lazy-load; 2) auditar y diferir scripts/animaciones no críticos para mejorar FCP/CLS; 3) aplicar buenas prácticas de accesibilidad (contraste, tamaños táctiles, estados de foco, ARIA y texto alternativo); 4) clarificar la jerarquía de CTAs —especialmente en móvil— para convertir la atención en interacción; 5) medir y priorizar con herramientas (Lighthouse, WebPageTest, axe) para corregir lo que más impacta en usuarios reales.</li>
+			</ul>
+			<p>Aplicando estas acciones, es posible conservar la identidad estética que hace sobresalientes a estos sitios, a la vez que se mejora la velocidad, la accesibilidad y la conversión en entornos móviles y con conexiones reales.</p>
+		</section>
+
+		</main>
+		
+		<footer>
+			<p>© 2025 Web Atelier (UDIT) – Informe de análisis.</p>
+		</footer>
+	</body>
 </html>

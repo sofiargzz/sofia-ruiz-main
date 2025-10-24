@@ -6,19 +6,34 @@ nav {
   position: sticky;
   top: 0;
   z-index: 1000;
+  background-color: #fff; /* Fondo para que no se superponga con contenido */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  padding: 0.5rem 1rem;
 }
+
 nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
   display: flex;
+  justify-content: center; /* Centra los elementos horizontalmente */
+  align-items: center;
+  gap: 1.5rem; /* Espaciado entre los enlaces */
 }
+
 nav ul li {
-  margin-right: 1rem;
+  margin: 0; /* Ya no es necesario el margin-right gracias a gap */
 }
+
 nav ul li a {
   text-decoration: none;
   color: #333;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #e91e63; /* Color destacado al pasar el cursor */
 }
 html {
   scroll-behavior: smooth;
